@@ -1,0 +1,7 @@
+CREATE TABLE user_data
+(
+  id INT NOT NULL,
+  name VARCHAR(40) NOT NULL,
+  memo VARCHAR(1024),
+  PRIMARY KEY(id)
+);
